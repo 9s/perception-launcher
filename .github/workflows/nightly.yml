@@ -29,7 +29,7 @@ jobs:
 
       - name: delete existing nightly release (if exists)
         run: |
-          gh release delete nightly --yes || echo "no nightly release to delete"
+          gh release delete nightly --yes || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
