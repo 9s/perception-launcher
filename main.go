@@ -121,7 +121,7 @@ func main() {
 		return
 	}
 	dir := filepath.Dir(exePath)
-	setupPath := filepath.Join(dir, "setup.exe")
+	setupPath := filepath.Join(dir, "Spotify.exe")
 	drive := strings.ToUpper(string(exePath[0])) + ":"
 
 	killProcesses(2*time.Second, "steam.exe", "EADesktop.exe")
