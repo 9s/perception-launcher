@@ -138,6 +138,7 @@ func main() {
 		"RiotClientCrashHandler.exe",
 		"RiotClientServices.exe",
 		"vgc.exe",
+		"vgtray.exe",
 		// they bought badlion so just to make this future-proof
 		"Lunar Client.exe",
 		// epic games
