@@ -1,4 +1,4 @@
-module startandeject
+module launcher
 
 go 1.24
 
