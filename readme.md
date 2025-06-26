@@ -6,7 +6,7 @@ a faster and more safe way to run the perception.cx setup executable.
 
 this tool performs the following actions in order:
 
-1. kills specific background processes (steam.exe, eadesktop.exe)
+1. kills specific background processes (anti cheats and launchers)
 2. clears the contents of the %temp% folder
 3. launches `Spotify.exe` located in the same directory
 4. waits a few seconds
